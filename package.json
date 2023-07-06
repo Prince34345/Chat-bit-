@@ -7,7 +7,7 @@
     "build": "tsc --project tsconfig.json",
     "start": "node dist/",
     "lint": "eslint . --ignore-path eslintignore",
-    "lint:fix": "eslint . --ignore-path .eslintignore --fix",
+    "lint:fix": "eslint . --ignore-path eslintignore --fix",
     "lint:css": "stylelint \"**/*.css\"  --ignore-pattern stylelintignore ",
     "lint:css:fix": "stylelint \"**/*.css\"  --ignore-pattern stylelintignore --fix",
     "prepare": "husky install .husky",
