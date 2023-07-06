@@ -1,1 +1,2 @@
-# Chat-bit-
+# Chat-bit Application
+

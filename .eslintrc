@@ -1,0 +1,54 @@
+{
+    "root": true,
+    "env": {
+      "browser": true,
+      "node": true,
+      "jest": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 2021,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:react/recommended",
+      "plugin:jest/recommended",
+      "plugin:testing-library/react",
+      "plugin:prettier/recommended"
+    ],
+    "plugins": ["react", "jest", "testing-library"],
+    "rules": {
+      // General ESLint rules
+      "no-console": "warn",
+      "no-debugger": "warn",
+      "no-unused-vars": "warn",
+      "no-var": "error",
+      "prefer-const": "error",
+      "prettier/prettier": "error",
+  
+      // Jest-specific rules
+      "jest/no-disabled-tests": "warn",
+      "jest/no-focused-tests": "error",
+      "jest/no-identical-title": "error",
+      "jest/prefer-to-have-length": "warn",
+      "jest/valid-expect": "error",
+  
+      // Testing Library rules
+      "testing-library/no-await-sync-query": "error",
+      "testing-library/no-debug": "warn",
+  
+      // Next.js specific rules
+      "react/jsx-uses-react": "off",
+      "react/react-in-jsx-scope": "off",
+      "jsx-a11y/anchor-is-valid": "off"
+    },
+    "settings": {
+      "react": {
+        "version": "detect"
+      }
+    }
+  }
+  
