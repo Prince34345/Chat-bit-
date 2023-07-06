@@ -1,5 +1,5 @@
-export default {
-    testEnvironment: 'node',
-    coverageDirectory: 'coverage',
-    collectCoverageFrom: ['src/**/*.tsx'],
+module.exports =  {
+  testEnvironment: 'node',
+  coverageDirectory: 'coverage',
+  collectCoverageFrom: ['src/**/*.tsx'],
 };
