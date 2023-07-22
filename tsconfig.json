@@ -6,7 +6,12 @@
     "target": "es5",
     "allowJs": true,
     "jsx": "react",
-    "moduleResolution": "Node"
+    "moduleResolution": "Node",
+    "baseUrl": "./src",
+    "paths": {
+      "@organisms/*": ["frontend/libs/organisms/*"],
+      "@pages/*": ["frontend/libs/pages/*"]
+    }
   },
-  "files": ["src/index.tsx"]
+  "files": ["src/frontend/index.tsx"]
 }

@@ -61,6 +61,7 @@
     "next": "^13.4.8",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "tailwind-loader": "^1.0.0",
     "webpack": "^5.88.1",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1"

@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+
+
+.animations{ 
+    animation: animate .5s alternate ease-in-out;
+}
+
+@keyframes animate {
+   from {
+     transform: scale(1);
+   }
+   
+   to{
+      transform: scale(1.05);
+   }
+}

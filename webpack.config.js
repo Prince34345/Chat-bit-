@@ -9,7 +9,7 @@ const stylesHandler = MiniCssExtractPlugin.loader;
 
 
 const config = {
-    entry: './src/index.tsx',
+    entry: './src/frontend/index.tsx',
     output: {
         path: path.resolve(__dirname, 'dist'),
 
@@ -39,7 +39,7 @@ const config = {
             },
             {
                 test: /\.css$/i,
-                use: [stylesHandler, 'css-loader', 'postcss-loader', "tailwind"],
+                use: [stylesHandler, 'css-loader', 'postcss-loader'],
             },
             {
                 test: /\.(eot|svg|ttf|woff|woff2|png|jpg|gif)$/i,
